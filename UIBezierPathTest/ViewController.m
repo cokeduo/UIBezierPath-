@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "PathView.h"
 
 @interface ViewController ()
+
 
 @end
 
@@ -16,12 +18,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    PathView *MyPathView = [[PathView alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:MyPathView];
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end

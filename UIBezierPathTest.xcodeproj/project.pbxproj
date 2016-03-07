@@ -15,6 +15,7 @@
 		444B85EC1C8D7E7000EF14E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 444B85EA1C8D7E7000EF14E6 /* LaunchScreen.storyboard */; };
 		444B85F71C8D7E7000EF14E6 /* UIBezierPathTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 444B85F61C8D7E7000EF14E6 /* UIBezierPathTestTests.m */; };
 		444B86021C8D7E7000EF14E6 /* UIBezierPathTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 444B86011C8D7E7000EF14E6 /* UIBezierPathTestUITests.m */; };
+		444B86111C8D822D00EF14E6 /* PathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 444B86101C8D822D00EF14E6 /* PathView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		444B85FD1C8D7E7000EF14E6 /* UIBezierPathTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIBezierPathTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		444B86011C8D7E7000EF14E6 /* UIBezierPathTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIBezierPathTestUITests.m; sourceTree = "<group>"; };
 		444B86031C8D7E7000EF14E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		444B860F1C8D822D00EF14E6 /* PathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathView.h; sourceTree = "<group>"; };
+		444B86101C8D822D00EF14E6 /* PathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				444B85E01C8D7E7000EF14E6 /* AppDelegate.m */,
 				444B85E21C8D7E7000EF14E6 /* ViewController.h */,
 				444B85E31C8D7E7000EF14E6 /* ViewController.m */,
+				444B860F1C8D822D00EF14E6 /* PathView.h */,
+				444B86101C8D822D00EF14E6 /* PathView.m */,
 				444B85E51C8D7E7000EF14E6 /* Main.storyboard */,
 				444B85E81C8D7E7000EF14E6 /* Assets.xcassets */,
 				444B85EA1C8D7E7000EF14E6 /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				444B85E41C8D7E7000EF14E6 /* ViewController.m in Sources */,
+				444B86111C8D822D00EF14E6 /* PathView.m in Sources */,
 				444B85E11C8D7E7000EF14E6 /* AppDelegate.m in Sources */,
 				444B85DE1C8D7E7000EF14E6 /* main.m in Sources */,
 			);
@@ -412,6 +418,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UIBezierPathTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibiaoqing.UIBezierPathTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UIBezierPathTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibiaoqing.UIBezierPathTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
